@@ -1,0 +1,1 @@
+This is my project to copy the layout of the Google Homepage in order to practice HTML and CSS.
