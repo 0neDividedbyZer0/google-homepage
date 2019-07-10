@@ -3,27 +3,31 @@
 <head>
   <meta charset="utf-8">
 
-  <link ref="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>Google</title>
 </head>
 
 <body>
-  <div id="Header">
+  <div id="header">
 
   </div>
 
-  <div id="Main">
-    <div id="upper">
-      <img src="googlelogo_color_272x92dp.png">
+  <div id="main">
+    <div id="upper" style="height:233px; margin-top:89px">
+      <img src="googlelogo_color_272x92dp.png" id="goog_img" style="padding-top: 109px;">
     </div>
 
     <div id="lower">
-      
+      <form id="search-bar">
+        <input type="text" name="searchbar" maxlength="2048" style="margin-top:-42px; width: 414px; height:39px;"><br>
+        <input class="sb-button" type="submit" value="Google Search">
+        <input class="sb-button" type="submit" value="I'm Feeling Lucky">
+      </form>
     </div>
   </div>
 
-  <div id="Footer">
+  <div id="footer">
 
   </div>
 </body>
