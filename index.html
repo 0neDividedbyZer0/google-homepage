@@ -13,16 +13,26 @@
 
   </div>
 
-  <div id="main">
+  <div id="main" style="position:relative; float:left;top:0px;width:100%;height:100px;left:0;">
     <div id="upper" style="height:233px; margin-top:89px">
       <img src="googlelogo_color_272x92dp.png" id="goog_img" style="padding-top: 109px;">
     </div>
 
+    <div id="hidden" style="margin: 40px 833px">
+    </div>
+    
     <div id="lower">
-      <form id="search-bar">
-        <input type="text" name="searchbar" maxlength="2048" style="margin-top:-42px; width: 414px; height:39px;"><br>
-        <input class="sb-button" type="submit" value="Google Search">
-        <input class="sb-button" type="submit" value="I'm Feeling Lucky">
+      <div id="container" style="width: 100%;">
+      <div id="sb-border">
+        <form id="search-bar">
+          <input type="text" name="searchbar"><br>
+          
+        </form>
+      </div>
+      </div>
+      <form id="sb-buttons">
+          <input class="sb-button" type="submit" value="Google Search">
+          <input class="sb-button" type="submit" value="I'm Feeling Lucky">
       </form>
     </div>
   </div>
