@@ -3,7 +3,38 @@ body {
   min-width: 800px;
   position:relative;
   float:left;
+  overflow-x:hidden;
 }
+
+#header {
+  width: 100%;
+  min-width: 980px;
+  position: fixed;
+  float:left;
+  overflow-x:hidden;
+  font: 400 13.3333px Arial;
+  color: #616161;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+  
+}
+
+#lt-header {
+  float: left;
+}
+
+a {
+  padding-left: 11px;
+  text-decoration: none;
+  color: #616161;
+}
+
+.rt {
+  margin-right: 34px;
+}
+
+
 
 input:focus,
 select:focus,
@@ -45,6 +76,14 @@ input[type="text"] {
   border-radius: 24px;
 }
 
+#sb-border:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#sb-border {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
 #sb-buttons {
   margin-top: 20px;
   
@@ -61,6 +100,25 @@ input[type="text"] {
   color: #616161;
 }
 
+.sb-button:hover {
+  border: 1px solid #707070;
+  color: #202020;
+  cursor: pointer;
+}
 
+a:visited {
+  text-decoration: none;
+  color: #616161;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #616161;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #616161;
+}
 
 
