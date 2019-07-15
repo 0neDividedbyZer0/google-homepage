@@ -121,4 +121,35 @@ a:active {
   color: #616161;
 }
 
+#footer {
+  width: 100%;
+  min-width: 980px;
+  position: fixed;
+  overflow-x:hidden;
+  font: 400 13.3333px Arial;
+  color: #616161;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+  bottom: 0px;
+  background-color: #efefef;
+  height: 50px;
+  border-top: 1px solid #c0c0c0;
+  padding-right: 10px;
+  margin-left: 0px;
+}
+
+#lt-footer {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#rt-footer {
+  margin-top: 10px;
+  margin-right: 33px;
+}
+
+.ft-button {
+  margin-left: 5px;
+}
 
